@@ -1,0 +1,21 @@
+
+
+.dark .searchbar-text {
+    background-color: #181818;
+}
+
+.dark .search-result {
+    background-color: #292929;
+}
+
+.dark .search-result-text {
+    background-color: #292929;
+}
+
+.dark .search-result-text:hover {
+    background-color: #DD7973;
+}
+
+/* .dark .author {
+    background-color:;
+} */

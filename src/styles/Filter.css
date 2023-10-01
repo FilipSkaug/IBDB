@@ -1,0 +1,12 @@
+p {
+    font-family: "Maven Pro";
+    font-size: 1.2rem;
+}
+
+.dark .filter-background {
+    background-color: #343434;
+}
+
+.dark .filter-chosen {
+    background-color: black;
+}

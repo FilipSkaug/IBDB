@@ -1,0 +1,199 @@
+.dark div {
+    color: #dddddd;
+}
+
+.dark .button {
+    background-color: #343434;
+}
+
+.dark .rate-book {
+    background-color: #292929;
+}
+
+.dark .text-area {
+    color: black;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+}
+
+.left {
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.right {
+    height: 100%;
+    width : 75%;
+    float: left;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+} 
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.raiseText {
+    line-height: 10px;
+}
+
+.edit-underline {
+    font-size: medium;
+    color: #DD7973;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.error-message {
+    color: red;
+}
+
+.dark .error-message {
+    color: red;
+}
+
+.edit {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-inner {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    border-radius: 8px;
+    padding: 32px;
+    height: 300px;
+    width: 640px;
+    background-color: #F6f9FF;
+}
+
+.dark .edit-inner {
+    background-color: #292929;
+}
+
+#title {
+    font-weight: bold;
+    font-size: xx-large;
+    line-height: 2.5rem;
+    margin-bottom: 15px; 
+    margin-left: 5px;
+}
+
+.description {
+margin-right: 200px;
+font-size: large;
+margin-bottom: 10px;
+}
+
+.image {
+    border-radius: 18px;
+    width: 260px;
+    position: fixed;
+    left: 50px;
+}
+
+.author {
+    margin: 10px 0; 
+    font-size: medium;
+    margin-left: 10px;
+}
+
+.genre {
+    font-size: large;
+    color: rgb(109, 109, 109);
+}
+
+.starRating {
+    margin-top: 5px;
+    width: 100%;
+    /* padding-left: 50px; */
+}
+
+.rating {
+    margin: 0px 0px 4px 0px;
+}
+
+.rating section{
+    width: 22%;
+    display: inline;
+}
+
+.rating ul{
+    margin-left: 20px;
+}
+
+.showMoreButton {
+    margin-bottom: 20px;
+}
+
+.rating li {
+    display: inline;
+    margin: 0px 8px 0px 0px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+
+.info {
+    font-size: 14px;
+    margin: 10px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.reviewSection {
+    margin-top: 40px;
+    margin-right:40px;
+    /* border-radius: 8px; */
+    padding-top: 10px;
+    border-top: 2px solid grey;
+    
+}
+
+.reviewSection text{
+    width: 75%;
+    float: right;
+}
+
+.weakText{
+    color: grey;
+    
+}
+
+.commentBox{
+    border: .000;
+    margin-top: 20px;
+    border-top: 2px solid grey;
+    margin-right:10px;
+    padding-top: 10px; 
+}
+
+.showMoreButton {
+    color: gray;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.amountOfRatings {
+    margin-bottom: 10px;
+}
